@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OptArt+ (OPT) — Token utilitaire Solana</title>
+<style>
+  :root{--bg:#0d0d12;--fg:#f5f5f5;--acc:#ffb300;--acc2:#ff7a00;--card:#17171f;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+  header{padding:48px 20px;text-align:center;background:radial-gradient(circle at 50% 0,#2a2200,#0d0d12)}
+  .logo{max-width:160px;image-rendering:pixelated;border:4px solid #000;border-radius:8px}
+  h1{font-size:2.4rem;margin:16px 0 4px;letter-spacing:2px}
+  .sym{color:var(--acc);font-weight:700}
+  .tag{opacity:.8}
+  nav{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;padding:16px;background:#000;position:sticky;top:0;z-index:10}
+  nav a{color:var(--fg);text-decoration:none;font-size:.9rem;opacity:.85}
+  nav a:hover{color:var(--acc)}
+  section{max-width:900px;margin:0 auto;padding:40px 20px}
+  h2{color:var(--acc);border-left:4px solid var(--acc2);padding-left:12px;margin-bottom:18px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+  .card{background:var(--card);padding:18px;border-radius:10px;border:1px solid #26262f}
+  .card h3{color:var(--acc2);font-size:1.1rem;margin-bottom:6px}
+  table{width:100%;border-collapse:collapse;margin-top:10px}
+  th,td{padding:10px;border-bottom:1px solid #26262f;text-align:left}
+  th{color:var(--acc)}
+  .btn{display:inline-block;background:linear-gradient(90deg,var(--acc),var(--acc2));color:#000;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:700;margin:8px 8px 0 0}
+  footer{text-align:center;padding:30px;opacity:.6;font-size:.8rem}
+  code{background:#000;padding:2px 6px;border-radius:4px;color:var(--acc)}
+</style>
+</head>
+<body>
+<header>
+  <img class="logo" src="assets/logo.png" alt="OptArt+ logo">
+  <h1>OptArt+ <span class="sym">OPT</span></h1>
+  <p class="tag">Token utilitaire de l'écosystème OptArt sur Solana</p>
+</header>
+<nav>
+  <a href="#about">À propos</a>
+  <a href="#tokenomics">Tokenomics</a>
+  <a href="#utility">Utilité</a>
+  <a href="#roadmap">Roadmap</a>
+  <a href="#links">Liens</a>
+</nav>
+
+<section id="about">
+  <h2>À propos</h2>
+  <p>OptArt+ (OPT) est un token SPL sur Solana conçu pour alimenter l'écosystème OptArt : services créatifs, mint NFT, staking et gouvernance. Supply fixe de <strong>1 milliard d'OPT</strong>, mint authority renoncée — aucune inflation possible.</p>
+</section>
+
+<section id="tokenomics">
+  <h2>Tokenomics</h2>
+  <div class="grid">
+    <div class="card"><h3>Supply</h3><p>1,000,000,000 OPT</p><p>Decimals: 9</p></div>
+    <div class="card"><h3>Liquidité DEX</h3><p>40% — lockée</p></div>
+    <div class="card"><h3>Communauté</h3><p>20% — airdrops</p></div>
+    <div class="card"><h3>Équipe</h3><p>15% — vesting 24 mois</p></div>
+    <div class="card"><h3>Développement</h3><p>15% — écosystème</p></div>
+    <div class="card"><h3>Réserves</h3><p>10% — marketing</p></div>
+  </div>
+  <table>
+    <tr><th>Catégorie</th><th>%</th><th>Montant</th><th>Note</th></tr>
+    <tr><td>Liquidité DEX</td><td>40%</td><td>400,000,000</td><td>Lockée (timelock)</td></tr>
+    <tr><td>Communauté & Airdrops</td><td>20%</td><td>200,000,000</td><td>Gouttes progressives</td></tr>
+    <tr><td>Équipe</td><td>15%</td><td>150,000,000</td><td>Vesting 24 mois</td></tr>
+    <tr><td>Développement & Écosystème</td><td>15%</td><td>150,000,000</td><td>Produit / partenariats</td></tr>
+    <tr><td>Réserves & Marketing</td><td>10%</td><td>100,000,000</td><td>Trésorerie</td></tr>
+  </table>
+  <p style="margin-top:14px"><strong>Transparence :</strong> mint authority renoncée après le mint initial. Adresses des tranches publiées dans le whitepaper. Lock de liquidité vérifiable on-chain.</p>
+</section>
+
+<section id="utility">
+  <h2>Utilité</h2>
+  <div class="grid">
+    <div class="card"><h3>Paiement</h3><p>Services OptArt (mint NFT, outils créatifs)</p></div>
+    <div class="card"><h3>Staking</h3><p>Réductions de frais</p></div>
+    <div class="card"><h3>Gouvernance</h3><p>Votes sur le roadmap</p></div>
+    <div class="card"><h3>Récompenses</h3><p>LP rewards sur DEX</p></div>
+  </div>
+</section>
+
+<section id="roadmap">
+  <h2>Roadmap</h2>
+  <div class="grid">
+    <div class="card"><h3>Phase 1</h3><p>Création token + metadata on-chain</p></div>
+    <div class="card"><h3>Phase 2</h3><p>Site web + whitepaper</p></div>
+    <div class="card"><h3>Phase 3</h3><p>Listing DEX (Raydium/Jupiter)</p></div>
+    <div class="card"><h3>Phase 4</h3><p>Explorer verify + CoinGecko/CMC</p></div>
+    <div class="card"><h3>Phase 5</h3><p>Utilité (staking, mint)</p></div>
+  </div>
+</section>
+
+<section id="links">
+  <h2>Liens</h2>
+  <p>
+    <a class="btn" href="https://explorer.solana.com/?cluster=mainnet">Solana Explorer</a>
+    <a class="btn" href="https://jup.ag">Jupiter</a>
+    <a class="btn" href="https://raydium.io">Raydium</a>
+  </p>
+  <p style="margin-top:14px">Wallet officiel (créateur) : <code>8ZVHxD8jUH64HiZekgJoqXA4j8CGUViPp8ap8S5aHeg9</code></p>
+  <p>Whitepaper : <a href="whitepaper.md">whitepaper.md</a></p>
+</section>
+
+<footer>OptArt+ (OPT) — document informatif, pas un conseil en investissement. Crypto = risque.</footer>
+</body>
+</html>
