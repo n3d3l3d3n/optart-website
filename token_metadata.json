@@ -1,0 +1,28 @@
+{
+  "name": "OptArt+",
+  "symbol": "OPT",
+  "description": "OptArt+ (OPT) — token utilitaire de l'écosystème OptArt : paiement de services créatifs, staking, gouvernance et récompenses de liquidité sur Solana. Supply fixe de 1 milliard, mint authority renoncée pour une transparence totale.",
+  "image": "REPLACE_WITH_IPFS_OR_ARWEAVE_URL",
+  "external_url": "https://optart.example",
+  "attributes": [
+    { "trait_type": "Blockchain", "value": "Solana" },
+    { "trait_type": "Decimals", "value": "9" },
+    { "trait_type": "Total Supply", "value": "1000000000" },
+    { "trait_type": "Mint Authority", "value": "Renounced" }
+  ],
+  "properties": {
+    "files": [
+      { "uri": "REPLACE_WITH_IPFS_OR_ARWEAVE_URL", "type": "image/png" }
+    ],
+    "category": "image",
+    "creators": [
+      { "address": "8ZVHxD8jUH64HiZekgJoqXA4j8CGUViPp8ap8S5aHeg9", "share": 100 }
+    ]
+  },
+  "links": {
+    "website": "https://optart.example",
+    "twitter": "https://twitter.com/optart",
+    "telegram": "https://t.me/optart",
+    "discord": ""
+  }
+}
