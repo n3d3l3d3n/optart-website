@@ -1,0 +1,6 @@
+# Fichiers a ne pas versionner
+.solana/
+wallet*/
+*.json.bak
+node_modules/
+.DS_Store
